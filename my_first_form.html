@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>My First HTML Form</title>
+	</head>
+	<body>
+		<h2>User Login</h2>
+			<form method="post" action="http://requestb.in/16tnzwc1">
+				<p>
+					<label for="username">Username</label>
+					<input id="username" name="username" type="text" placeholder="enter username here">
+				</p>
+				<p>
+					<label for="password">Password</label>
+					<input id="password" name="username" type="password" placeholder="enter your password">
+				</p>
+				<p>
+					<button type="submit">Login</button>
+				</p>
+			</form>
+		<h2> Compose an Email</h2>
+			<form method="post" action="http://requestb.in/16tnzwc1">
+				<p>
+					<LABEL for="To">To:</LABEL>
+					<input id="To" name="To" type="text" placeholder="enter recipient(s)">
+				</p>
+				<p>
+					<label for="From">From:</label>
+					<input id="From" name="From" type="text" placeholder="enter your email address">
+				</p>
+				<p>
+					<label for="subject">Subject:</label>
+					<input id="Subject" name="Subject" type="text" placeholder="enter subject">
+				</p>
+				<p>
+					<label for="body">Body</label>
+					<textarea id="email_body" name="email_body" rows="5" cols="30"></textarea>
+				</p>
+				<p>
+					<input type="checkbox" name="save_a_copy" value="yes" checked>
+					<label for="save_a_copy">Save a copy to Sent Folder?</label>
+				</p>
+				<p>
+					<button type="submit">Send</button>
+				</p>
+			</form>
+		<h2>Multiple Choice Test</h2>
+			<form method="post" action="http://requestb.in/16tnzwc1">
+				<p>What is the capital of Wyoming?</p>
+				<label>
+					<input type="radio" name="q1" value="Jackson">Jackson
+				</label>
+				<label>
+					<input type="radio" name="q1" value="Cody">Cody
+				</label>
+				<label>
+					<input type="radio" name="q1" value="Cheyenne">Cheyenne
+				</label>
+				<label>
+					<input type="radio" name="q1" value="Laramie">Laramie
+				</label>
+				<p>What is the capital of Michigan?</p>
+				<label>
+					<input type="radio" name="q2" value="Detroit">Detroit
+				</label>
+				<label>
+					<input type="radio" name="q2" value="Lansing">Lansing
+				</label>
+				<label>
+					<input type="radio" name="q2" value="Kalamazoo">Kalamazoo
+				</label>
+				<label>
+					<input type="radio" name="q2" value="Marquette">Marquette
+				</label>
+				<p><button type="submit">Submit</button></p>
+			</form>
+			<form method="post" action="http://requestb.in/16tnzwc1">
+				<p>Which of these bones are in the arm?</p>
+				<label>
+					<input type="checkbox" id="bone1" name="bone[]" value="humerus"> Humerus
+				</label>
+				<label>
+					<input type="checkbox" id="bone2" name="bone[]" value="vertebra"> Vertebra
+				</label>
+				<label>
+					<input type="checkbox" id="bone3" name="bone[]" value="Fibula"> Fibula
+				</label>
+				<label>
+					<input type="checkbox" id="bone4" name="bone[]" value="radius"> Radius
+				</label>
+				<label>
+					<input type="checkbox" id="bone5" name="bone[]" value="patella"> Patella
+				</label>
+				<label>
+					<input type="checkbox" id="bone6" name="bone[]" value="ulna"> Ulna
+				</label>
+				<label>
+					<input type="checkbox" id="bone7" name="bone[]" value="femur"> Femur
+				</label>
+				<p><label for="leg">Which of these bones are in the leg?</label>
+					<select id="leg" name="leg[]" multiple>
+						<option value="humerus">Humerus</option>
+						<option value="vertebra">Vertebra</option>
+						<option value="fibula">Fibula</option>
+						<option value="radius">Radius</option>
+						<option value="patella">Patella</option>
+						<option value="ulna">Ulna</option>
+						<option value="femur">Femur</option>
+					</select>
+				<p><button type="submit">Submit</button></p>
+			</form>
+		<h2>Select Testing</h2>
+			<form method="post" action="http://requestb.in/16tnzwc1">
+				<label for="bacon">Do you like bacon?</label>
+					<Select id="bacon" name="bacon">
+						<option value="1">Yes</option>
+						<option value="0">No</option>
+					</Select>
+				<p><button type="submit">Submit</button></p>
+			</form>
+	</body>
+</html>

@@ -1,0 +1,27 @@
+h1 {text-align: center;
+	text-decoration: underline;
+	color: green;}
+
+h2 {text-decoration: underline;
+	color: green;}
+
+body {
+	font-family: "Glass Antiqua";
+	background-image: url("file:///users/user/desktop/codeup/img/upfeathers.png");}
+
+#container {
+    margin: 50px auto;
+    width: 700px;
+    padding: 10px;}
+
+ul {list-style: square}
+
+ol {list-style: lower-roman}
+
+table {padding: 10px; 
+	font-size: 1.5em;}
+
+a:link {color: blue;}
+a:visited {color: black;}
+a:hover {color: red;}
+a:active {color: purple;}

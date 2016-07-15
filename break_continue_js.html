@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>JS Break/Continue Exercise</title>
+</head>
+<body>
+	<script>
+		
+		var random = Math.floor((Math.random()*50)+1);
+			console.log ("Random odd number to skip is: " + random);
+
+		for (var n = 1; n < 51; n++) {
+			
+			if (n % 2 !== 1) {
+				continue;
+			}
+			if (random == n) {
+				console.log("Yikes! Skipping number: " + n);
+			} 
+			else {
+				console.log ("Here is an odd number: " + n);
+			}
+			if (n >= 49) {
+				break;
+			}
+		}
+
+	</script>
+
+</body>
+</html>
